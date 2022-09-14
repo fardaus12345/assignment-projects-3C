@@ -1,0 +1,57 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+body {
+  height: 1500px;
+  padding-top: 50px;
+  padding-left: 30px;
+}
+.green {
+  width: 750px;
+  height: 350px;
+  background: green;
+  position: relative;
+}
+.red {
+  width: 180px;
+  height: 180px;
+  background: red;
+  border-radius: 50%;
+  position: absolute;
+  top: 22%;
+  left: 35%;
+}
+.fb {
+  width: 200px;
+  position: fixed;
+  right: -150px;
+  bottom: 65%;
+  transition: 1s;
+}
+.fb:hover {
+  right: 2px;
+}
+
+.linkdin {
+  width: 160px;
+  position: fixed;
+  right: -108px;
+  bottom: 53%;
+  transition: 1s;
+}
+
+.linkdin:hover {
+  right: 2px;
+}
+.twitter {
+  width: 160px;
+  position: fixed;
+  right: -107px;
+  bottom: 40%;
+  transition: 1s;
+}
+
+.twitter:hover {
+  right: 4px;
+}
